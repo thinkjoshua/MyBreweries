@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "775070262869",
+    "project_id": "my-brewery-4e5c7",
+    "storage_bucket": "my-brewery-4e5c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775070262869:android:9a5c7fa84c49e5417556dc",
+        "android_client_info": {
+          "package_name": "com.example.mybrewery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775070262869-d16ktiuefprb3u44uk6fn4mp3n8f3f09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_JX0xyNVYjMkGb21iZUhFH72Wgjx1zRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775070262869-d16ktiuefprb3u44uk6fn4mp3n8f3f09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
