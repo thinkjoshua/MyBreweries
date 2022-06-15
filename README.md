@@ -27,7 +27,7 @@ To run the application, in your terminal:
 
 Clone or download the Repository
 
-cd into directory then run cd Cocktails
+cd into directory then run cd mybrewery
 
 Rebuild the Project Using Android Studio or ...
 
