@@ -22,7 +22,9 @@ Java
 XML
 
 Android Studio
+
 # Setup Installations Requirements
+
 To run the application, in your terminal:
 
 Clone or download the Repository
@@ -32,7 +34,9 @@ cd into directory then run cd mybrewery
 Rebuild the Project Using Android Studio or ...
 
 Open terminal command line then navigate to the root folder of the application.
+
 # Development
+
 Want to contribute? Great! To fix a bug or enhance an existing module, follow these steps:
 
 Fork the repo
@@ -45,3 +49,9 @@ Add changes to reflect the changes made
 
 
 Run command to view the emulator.
+
+Commit your changes (git commit -am 'Improve feature')
+
+Push to the branch (git push origin improve-feature)
+
+Create a Pull Request
