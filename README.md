@@ -4,3 +4,5 @@ MyBreweries is an android application that allows people to order drinks from a 
 
 # Author
 Joshua Musau Kithyoma
+# Contact information
+jkithyoma62@gmail.com
