@@ -22,3 +22,15 @@ Java
 XML
 
 Android Studio
+# Setup Installations Requirements
+To run the application, in your terminal:
+
+Clone or download the Repository
+
+cd into directory then run cd Cocktails
+
+Rebuild the Project Using Android Studio or ...
+
+Open terminal command line then navigate to the root folder of the application.
+
+Run command to view the emulator.
