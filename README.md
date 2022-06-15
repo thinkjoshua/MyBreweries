@@ -31,7 +31,8 @@ cd into directory then run cd mybrewery
 
 Rebuild the Project Using Android Studio or ...
 
-Open terminal command line then navigate to the root folder of the application.Development
+Open terminal command line then navigate to the root folder of the application.
+# Development
 Want to contribute? Great! To fix a bug or enhance an existing module, follow these steps:
 
 Fork the repo
