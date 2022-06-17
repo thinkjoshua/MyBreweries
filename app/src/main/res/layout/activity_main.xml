@@ -39,4 +39,11 @@
         android:layout_centerInParent="true"
         android:layout_margin="16dp"
         android:visibility="gone"/>
+    <Button
+        android:id="@+id/meals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Meals"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
 </RelativeLayout>

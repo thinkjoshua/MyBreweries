@@ -14,6 +14,9 @@ import android.widget.TextView;
 import com.example.mybrewery.R;
 import com.example.mybrewery.models.Brewery;
 
+import com.example.mybrewery.models.Constants;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
 
@@ -34,7 +37,7 @@ public class BreweryDetailFragment extends Fragment {
     @BindView(R.id.phoneTextView) TextView mPhoneLabel;
     @BindView(R.id.addressTextView) TextView mAddressLabel;
     @BindView(R.id.saveRestaurantButton) TextView mSaveRestaurantButton;
-
+    DatabaseReference reference;
 
     private Brewery mRestaurant;
 
@@ -70,6 +73,7 @@ public class BreweryDetailFragment extends Fragment {
         ButterKnife.bind(this, view);
         Picasso.get().load(mRestaurant.getStrDrinkThumb()).into(mImageLabel);
 
+        reference = FirebaseDatabase.getInstance().getReference().child(Constants.BREWS);
 
 
         mNameLabel.setText(mRestaurant.getStrDrink());
@@ -78,6 +82,13 @@ public class BreweryDetailFragment extends Fragment {
         mWebsiteLabel.setText(mRestaurant.getStrInstructions());
         mPhoneLabel.setText(mRestaurant.getDateModified());
         mAddressLabel.setText(mRestaurant.getStrGlass());
+        mSaveRestaurantButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                reference.child(mRestaurant.getIdDrink()).setValue(mRestaurant);
+
+            }
+        });
 
 
         return view;
