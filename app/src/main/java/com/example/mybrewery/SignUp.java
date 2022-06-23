@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -22,7 +23,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
     @BindView(R.id.createUserButton)
-    Button mCreateUserButton;
+    LottieAnimationView mCreateUserButton;
     @BindView(R.id.nameEditText)
     EditText mNameEditText;
     @BindView(R.id.emailEditText) EditText mEmailEditText;

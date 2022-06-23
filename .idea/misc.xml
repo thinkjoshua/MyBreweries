@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/layout-land/activity_login.xml" value="0.21428571428571427" />
+        <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/layout-land/activity_main.xml" value="0.21428571428571427" />
         <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/layout/activity_restaurant_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/layout/brewery.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/layout/fragment_restaurant_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/layout/restaurant.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/joshm/AndroidStudioProjects/MyBrewery/app/src/main/res/menu/menu_main.xml" value="0.253125" />
